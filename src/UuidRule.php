@@ -26,6 +26,6 @@ class UuidRule implements Rule
      */
     public function message()
     {
-        return trans('validation.uuid-rule') ?:  'The :attribute must be a UUID.';
+        return trans('validation.uuid-rule') != 'validation.uuid-rule' ? trans('validation.uuid-rule') : 'The :attribute must be a UUID.';
     }
 }
