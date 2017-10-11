@@ -1,0 +1,27 @@
+{
+  "name": "rap2hpoutre/uuid-rule",
+  "description": "add a UUID validation rule",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "uuid",
+    "package",
+    "library"
+  ],
+  "require": {
+    "laravel/framework": "^5.5"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "rap2h",
+      "email": "raphaelht@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Rap2hpoutre\\UuidRule\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
