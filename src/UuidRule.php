@@ -4,7 +4,7 @@ namespace Rap2hpoutre\UuidRule;
 
 use Illuminate\Contracts\Validation\Rule;
 
-class Uuid implements Rule
+class UuidRule implements Rule
 {
 
     /**
