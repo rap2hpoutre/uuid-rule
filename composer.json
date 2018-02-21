@@ -9,7 +9,8 @@
     "library"
   ],
   "require": {
-    "laravel/framework": "^5.5"
+    "laravel/framework": "^5.5",
+    "ramsey/uuid": "^3.7"
   },
   "license": "MIT",
   "authors": [
@@ -23,5 +24,13 @@
       "Rap2hpoutre\\UuidRule\\": "src/"
     }
   },
-  "minimum-stability": "stable"
+  "autoload-dev": {
+    "psr-4": {
+      "Rap2hpoutre\\UuidRule\\tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
 }
