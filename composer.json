@@ -9,7 +9,7 @@
     "library"
   ],
   "require": {
-    "laravel/framework": "^5.5",
+    "laravel/framework": "^6.20.14",
     "ramsey/uuid": "^3.7",
     "php": "^7.0"
   },
